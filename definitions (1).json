@@ -1,0 +1,281 @@
+{
+	"armor+2": {
+		"title": "+2 Armor",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type":"puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:genaric.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"armor+4": {
+		"title": "+4 Armor",
+		"cost": 5,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type":	"puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:genaric.armor",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"damage+2": {
+		"title": "+2 Melee Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute", 
+				"data": { 				
+					"attribute": "minecraft:genaric.attack_damage",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"damage+4": {
+		"title": "+4 Damage",
+		"cost":	5,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:genaric.attack_damage",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lifesteal+14": {
+		"title": "+14% Lifesteal",
+		"cost": 5,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "redstone_dust"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributelib:life_steal",
+					"value": 0.14,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lifesteal+2": {
+		"title": "+2% Lifesteal",
+		"frame": {
+			"type":	"advancement",
+			"data": {
+				"frame": "task"
+			}
+        },
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "redstone_dust"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"regen-5": {
+		"title": "-5% Health Regen",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_damage"
+			}
+		},
+		"frame": {
+			"type":  "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": { 
+					"attribute": "attributeslib:healing_received",
+					"value": -0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"root_lifesteal+10": {
+		"title": "+10% Lifesteal",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "redstone_dust"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributelib:life_steal",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"true_damage+2": {
+		"title": "+2 True Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame":"task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "alembic:true_damage",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"true_damage+4": {
+		"title": "+4 True Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_sword"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"cost": 5
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "alembic:true_damage",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"legacy_selection": {
+		"title": "Select Your Legacy",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "nether_star"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"cost": 10,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command":"ftbquests change_progress @s complete 6A51F9AA8333B0D5"
+				}
+			}
+		]
+	}
+}
